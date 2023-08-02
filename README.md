@@ -16,14 +16,14 @@ npm install react-fukuwarai
 ## Usage
 
 ```tsx
-import { Fukuwarai } from 'react-fukuwarai'
+import { Fukuwarai } from "react-fukuwarai";
 
 function MyComponent() {
   return (
-    <FukuWarai>
+    <Fukuwarai>
       <Component />
-    </FukuWarai>
-  )
+    </Fukuwarai>
+  );
 }
 ```
 
