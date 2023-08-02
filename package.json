@@ -1,0 +1,33 @@
+{
+  "name": "react-fukuwarai",
+  "version": "0.0.1",
+  "description": "make the target element draggable",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/su-pull/react-fukuwarai",
+    "directory": "react-fukuwarai/src"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc",
+    "test": "test"
+  },
+  "keywords": [
+    "draggable",
+    "dragging",
+    "mobile",
+    "desktop"
+  ],
+  "author": "S.Watanabe",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.2",
+    "@types/react": "^18.2.18"
+  }
+}
