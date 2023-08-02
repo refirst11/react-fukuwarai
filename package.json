@@ -1,6 +1,6 @@
 {
   "name": "react-fukuwarai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "make the target element draggable",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,8 @@
     "directory": "react-fukuwarai/src"
   },
   "scripts": {
-    "compile": "./node_modules/.bin/tsc",
+    "compile": "tsc && npm run copy-css",
+    "copy-css": "cp src/FukuWarai/styles.module.css dist/FukuWarai/styles.module.css",
     "test": "test"
   },
   "keywords": [
