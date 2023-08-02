@@ -3,12 +3,12 @@ import type { ReactNode } from 'react'
 import styles from './styles.module.css'
 
 // Type ReactNode for wrapper.
-type FkuWaraiProps = {
+type FkuwaraiProps = {
   children: ReactNode
 }
 
 // Main Functional.
-export const FukuWarai = ({ children }: FkuWaraiProps) => {
+export const Fukuwarai = ({ children }: FkuwaraiProps) => {
   const ref = useRef<HTMLDivElement>(null)
   const [initialX, setInitialX] = useState(0)
   const [initialY, setInitialY] = useState(0)
