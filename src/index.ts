@@ -1,2 +1,2 @@
-import { FukuWarai } from './FukuWarai'
-export { FukuWarai }
+import { Fukuwarai } from './Fukuwarai'
+export { Fukuwarai }
