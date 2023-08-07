@@ -4,7 +4,9 @@
 [![Minzip Size](https://img.shields.io/bundlephobia/minzip/react-fukuwarai)](https://bundlephobia.com/package/react-fukuwarai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Wrapper component Fukuwarai.  
+This is wrapper component Fukuwarai.  
+It can be used for component that want to move, such as design and prototype.
+
 #fuku is registered as the id of the component.
 
 ## Installation
