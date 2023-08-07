@@ -1,7 +1,7 @@
 {
   "name": "react-fukuwarai",
-  "version": "0.0.3",
-  "description": "make the target element draggable",
+  "version": "0.0.4",
+  "description": "React Component library for target element dragging.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
@@ -15,10 +15,11 @@
     "test": "test"
   },
   "keywords": [
-    "draggable",
+    "react",
+    "component",
     "dragging",
-    "mobile",
-    "desktop"
+    "design",
+    "prototype"
   ],
   "author": "S.Watanabe",
   "license": "MIT",
