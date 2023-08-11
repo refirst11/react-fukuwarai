@@ -1,6 +1,6 @@
 {
   "name": "react-fukuwarai",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Component library for target element dragging.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
