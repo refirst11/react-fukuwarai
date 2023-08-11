@@ -130,11 +130,11 @@ export const Fukuwarai = ({ children }: FkuwaraiProps) => {
       e.preventDefault()
     }
 
-    const controle = ref.current as HTMLDivElement
-    controle.addEventListener('touchmove', enterControl, { passive: false })
+    const control = ref.current as HTMLDivElement
+    control.addEventListener('touchmove', enterControl, { passive: false })
 
     return () => {
-      controle.removeEventListener('touchmove', enterControl)
+      control.removeEventListener('touchmove', enterControl)
     }
   }, [])
 
