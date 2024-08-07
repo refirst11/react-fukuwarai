@@ -1,6 +1,6 @@
 {
   "name": "react-fukuwarai",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React Component library for target element dragging.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "directory": "react-fukuwarai/src"
   },
   "scripts": {
-    "compile": "tsc && npm run copy-css",
+    "compile": "npx tsc && npm run copy-css",
     "copy-css": "cp src/Fukuwarai/styles.module.css dist/Fukuwarai/styles.module.css",
     "test": "test"
   },
