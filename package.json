@@ -2,18 +2,6 @@
   "name": "react-fukuwarai",
   "version": "0.0.8",
   "description": "React Component library for target element dragging.",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/su-pull/react-fukuwarai",
-    "directory": "react-fukuwarai/src"
-  },
-  "scripts": {
-    "compile": "npx tsc && npm run copy-css",
-    "copy-css": "cp src/Fukuwarai/styles.module.css dist/Fukuwarai/styles.module.css",
-    "test": "test"
-  },
   "keywords": [
     "react",
     "component",
@@ -21,8 +9,22 @@
     "design",
     "prototype"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refirst11/react-fukuwarai",
+    "directory": "react-fukuwarai/src"
+  },
   "author": "Refirst",
   "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "compile": "npx tsc && npm run copy-css",
+    "copy-css": "cp src/Fukuwarai/styles.module.css dist/Fukuwarai/styles.module.css"
+  },
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
     "typescript": "^5.5.4",
     "@types/react": "^18.2.18",
